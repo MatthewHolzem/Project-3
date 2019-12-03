@@ -15,10 +15,11 @@
   char NewBoard[ROWS][COLS];
   char quit;
 
-  bool MakeArray(string filename, char board[][COLS]);
-  void GameBoard(char board[][COLS]);
-  void SwitchBoard (char board[][COLS]);
   void NextState(char board[][COLS]);
+  bool MakeArray(string filename, char board[][COLS]);
+  void SwitchBoard (char board[][COLS]);
+  void GameBoard(char board[][COLS]);
+  
 
   int main() {
     char board [ROWS][COLS];
