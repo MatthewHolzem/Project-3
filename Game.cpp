@@ -1,9 +1,9 @@
   // Matthew Holzem CPSC Section 08
   #include <iostream>
   #include <stdlib.h>
-  #include <fstream> 
+  #include <fstream>
   #include <string>
-  
+
   using namespace std;
 
   const int ROWS = 22;
@@ -19,7 +19,7 @@
   bool MakeArray(string filename, char board[][COLS]);
   void SwitchBoard (char board[][COLS]);
   void GameBoard(char board[][COLS]);
-  
+
 
   int main() {
     char board [ROWS][COLS];
